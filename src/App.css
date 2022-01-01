@@ -10,10 +10,11 @@ body{
   color: white;
   height: 100vh;
   overflow: hidden;
+  text-transform: uppercase;
+
 }
 
 .main-title{
-  text-transform: uppercase;
   font-size: 2.5rem;
   font-weight: 900;
   max-width: 800px;
@@ -28,6 +29,15 @@ body{
   grid-template-columns: repeat(4,1fr);
 }
 
+.insight{
+  font-weight: 900;
+text-transform: none;
+width: 150%;
+font-size: 1rem;
+letter-spacing: 1px;
+margin: 7rem 0 0 2rem;
+}
+
 .temp{
 height: 15%;
 font-size: 3rem;
@@ -38,7 +48,7 @@ font-size: 3rem;
 }
 
 .rover-title{
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 900;
   margin-top: 0;
   place-self: end;
@@ -64,10 +74,41 @@ grid-column: 3/4;
 .sol-day p {
   font-size: 1.5rem;
 }
-
-/*.day{
-  display: flex;
-  padding: 10px;
-  border: solid brown 1px;
+.date,.wind{
+  text-transform: none;
 }
-*/
+.line-through{
+ color: rgb(180, 16, 16);
+ width: 12em;
+ opacity: 0.6;
+}
+.line-through2{
+  color: rgb(180, 16, 16);
+  width: 22em;
+  opacity: 0.6;
+ }
+
+.previous-days{
+  text-transform: none;
+  display: flex;
+  font-size: 1rem;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-weight: 900;
+}
+.day{
+  text-align: center;
+  border: 1px solid white;
+  width: 120px;
+  margin: 0;
+  padding:0;
+}
+.day p{
+  height: 20px;
+}
+.underLine{
+ width: 60%;
+ color: rgb(180, 16, 16);
+ opacity: 0.6;
+}
+
