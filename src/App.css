@@ -4,7 +4,7 @@
 body{
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6 ;
-  background-image: url("/src/Rover.jpg");
+  background-image: url("/src/tV3SpVVtv6E3Zy67vYDjmT.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -35,7 +35,7 @@ text-transform: none;
 width: 150%;
 font-size: 1rem;
 letter-spacing: 1px;
-margin: 7rem 0 0 2rem;
+margin: 4rem 0 0 2rem;
 }
 
 .temp{
@@ -63,12 +63,12 @@ font-size: 3rem;
 }
 .sol-day{
   margin-left: 2rem;
-  margin-top: 15em;
+  margin-top: 13em;
   grid-column: 2/3;
 }
 .sol-day-temp{
   margin-left: 2rem;
-  margin-top: 15em;
+  margin-top: 13em;
 grid-column: 3/4;
 }
 .sol-day p {
