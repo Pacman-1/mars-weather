@@ -30,8 +30,6 @@ function App() {
 
         <div className="day"><p> Sol 498</p> <p> June 8th</p>  <hr className='underLine' /> <p>High:</p> <p>Low:</p></div>
 
-
-
         <div className="day"><p> Sol 498</p> <p> June 8th</p>  <hr className='underLine' /> <p>High:</p> <p>Low:</p></div>
 
 
